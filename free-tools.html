@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Free CV tools and analyzers by CV and Cover Letter Nepal. Check your ATS score, use the bullet point enhancer, and see CV transformations.">
+    <title>Free CV Tools | CV and Cover Letter Nepal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="https://z-cdn-media.chatglm.cn/files/23de04ad-4957-4a14-9e2c-53015d9dc97e.jpeg?auth_key=1886172815-5082a3b95206492482bc35c088fad325-0-571f32dafec3481f77554982e95ed726" type="image/jpeg">
+</head>
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header class="header" id="header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">
+                <img src="https://z-cdn-media.chatglm.cn/files/23de04ad-4957-4a14-9e2c-53015d9dc97e.jpeg?auth_key=1886172815-5082a3b95206492482bc35c088fad325-0-571f32dafec3481f77554982e95ed726" alt="CV and Cover Letter Nepal Logo">
+                <div class="logo-text">
+                    <span class="logo-main">CV & Cover Letter</span>
+                    <span class="logo-sub">Nepal 🇳🇵</span>
+                </div>
+            </a>
+            <nav class="nav" id="nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="sample-cv.html" class="nav-link">Sample CV</a>
+                <a href="free-tools.html" class="nav-link active">Free Tools</a>
+                <a href="careers.html" class="nav-link">Careers</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="https://wa.me/9779862989407" target="_blank" rel="noopener" class="btn btn-primary btn-sm nav-cta">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.149-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/></svg>
+                    WhatsApp
+                </a>
+            </nav>
+            <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ===== PAGE HEADER ===== -->
+    <section class="page-header">
+        <div class="container">
+            <span class="eyebrow eyebrow-light">Free Resources</span>
+            <h1>Free CV Tools & Analyzers</h1>
+            <p>Use our free, interactive tools to instantly check your resume's performance, enhance your bullet points, and see the difference professional formatting makes.</p>
+        </div>
+    </section>
+
+    <!-- ===== TOOL 1: ATS SCORE CHECKER ===== -->
+    <section class="section ats-checker-section">
+        <div class="container">
+            <div class="ats-checker-wrap reveal">
+                <div class="ats-info">
+                    <span class="eyebrow">Free Tool</span>
+                    <h2>Will Your CV Pass the ATS?</h2>
+                    <p>Applicant Tracking Systems (ATS) reject over 75% of CVs before a human ever sees them. Paste your current CV text below to get an instant score and see if it needs professional help.</p>
+                    <ul class="ats-benefits">
+                        <li><span class="check">✓</span> Instant Analysis</li>
+                        <li><span class="check">✓</span> 100% Confidential</li>
+                        <li><span class="check">✓</span> No Sign-up Required</li>
+                    </ul>
+                </div>
+                
+                <div class="ats-tool-card">
+                    <textarea id="cvText" placeholder="Paste your CV text here..." rows="8"></textarea>
+                    <button id="checkCvBtn" class="btn btn-primary btn-block">
+                        Check My ATS Score
+                        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
+                    </button>
+                    
+                    <div id="atsResult" class="ats-result">
+                        <div class="ats-score-wrap">
+                            <div class="ats-score-circle">
+                                <svg width="120" height="120" viewBox="0 0 120 120">
+                                    <circle cx="60" cy="60" r="54" fill="none" stroke="#e2e8f0" stroke-width="10"/>
+                                    <circle id="scoreCircle" cx="60" cy="60" r="54" fill="none" stroke="#0E7C7B" stroke-width="10" stroke-dasharray="339.292" stroke-dashoffset="339.292" transform="rotate(-90 60 60)" stroke-linecap="round"/>
+                                </svg>
+                                <div class="ats-score-text">
+                                    <span id="scoreNumber">0</span><small>/100</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="atsFeedback" class="ats-feedback"></div>
+                        <a href="https://wa.me/9779862989407?text=Hello%2C%20my%20CV%20score%20was%20low.%20I%20need%20a%20professional%20rewrite" target="_blank" rel="noopener" class="btn btn-primary btn-block" id="upgradeBtn" style="display:none; margin-top:16px;">
+                            Get a 100% ATS Score (Get Pro Help)
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== TOOL 2: BEFORE & AFTER SLIDER ===== -->
+    <section class="section ba-section">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="eyebrow">The Difference</span>
+                <h2>See the Transformation</h2>
+                <p>Don't let a poor layout ruin your chances. Drag the slider below to see how we turn a basic, ignored resume into a professional, ATS-optimized document.</p>
+            </div>
+
+            <div class="ba-slider-wrap reveal">
+                <div class="ba-slider" id="baSlider">
+                    <div class="ba-img-container ba-after">
+                        <img src="https://images.unsplash.com/photo-1586281380349-632531db7ed4?q=80&w=1470&auto=format&fit=crop" alt="Professional CV Format">
+                        <span class="ba-tag ba-tag-after">After (Professional)</span>
+                    </div>
+                    <div class="ba-img-container ba-before" id="baBefore">
+                        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1470&auto=format&fit=crop" alt="Basic CV Format">
+                        <span class="ba-tag ba-tag-before">Before (Basic)</span>
+                    </div>
+                    <div class="ba-handle" id="baHandle">
+                        <span class="ba-line"></span>
+                        <span class="ba-circle">&larr;&rarr;</span>
+                        <span class="ba-line"></span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="ba-cta reveal">
+                <a href="https://wa.me/9779862989407?text=Hello%2C%20I%20want%20to%20transform%20my%20CV%20like%20the%20sample" target="_blank" rel="noopener" class="btn btn-primary">Transform My CV Today</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== TOOL 3: BULLET POINT ENHANCER ===== -->
+    <section class="section enhancer-section">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="eyebrow">Free AI-Style Tool</span>
+                <h2>CV Bullet Point Enhancer</h2>
+                <p>Struggling to sound professional? Type what you did at your job, and watch us turn it into a powerful, recruiter-friendly achievement.</p>
+            </div>
+
+            <div class="enhancer-tool reveal">
+                <div class="enhancer-input-wrap">
+                    <textarea id="weakText" placeholder="e.g., Responsible for helping customers and solving their problems..."></textarea>
+                    <button id="enhanceBtn" class="btn btn-primary">
+                        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/></svg>
+                        Enhance My Sentence
+                    </button>
+                </div>
+                
+                <div class="enhancer-arrow">
+                    <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </div>
+
+                <div class="enhancer-output-wrap">
+                    <div class="enhancer-output-header">
+                        <span class="output-tag">Professional Version</span>
+                        <button id="copyBtn" class="copy-btn">Copy Text</button>
+                    </div>
+                    <div id="enhancedOutput" class="enhanced-output">
+                        <p class="placeholder-text">Your professionally enhanced bullet point will appear here...</p>
+                    </div>
+                    <a href="https://wa.me/9779862989407?text=Hello%2C%20I%20want%20you%20to%20write%20my%20entire%20CV%20professionally" target="_blank" rel="noopener" class="btn btn-outline btn-block" id="getProBtn" style="display:none; margin-top:16px;">
+                        Let us write your whole CV this perfectly →
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                                          <!-- Column 1: Brand -->
+                <div class="footer-col footer-brand">
+                    <a href="index.html" class="logo">
+                        <img src="https://z-cdn-media.chatglm.cn/files/23de04ad-4957-4a14-9e2c-53015d9dc97e.jpeg?auth_key=1886172815-5082a3b95206492482bc35c088fad325-0-571f32dafec3481f77554982e95ed726" alt="CV and Cover Letter Nepal">
+                        <div class="logo-text">
+                            <span class="logo-main">CV & Cover Letter</span>
+                            <span class="logo-sub">Nepal 🇳🇵</span>
+                        </div>
+                    </a>
+                    <p>Professional online assistance for documents, applications, public forms and selected travel-related services.</p>
+                    <div class="social-links">
+                        <a href="https://wa.me/9779862989407" target="_blank" rel="noopener" aria-label="WhatsApp">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.149-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/></svg>
+                        </a>
+                        <a href="https://www.facebook.com/people/Cv-Cover-Letter-Nepal/61555818296589/" target="_blank" rel="noopener" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/></svg>
+                        </a>
+                        <a href="https://www.instagram.com/cvandcoverletternepal/" target="_blank" rel="noopener" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Column 2: Services -->
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html#cv-career">CV & Career Documents</a></li>
+                        <li><a href="services.html#europass">Europass Services</a></li>
+                        <li><a href="services.html#study-visa">Study & Visa Documents</a></li>
+                        <li><a href="services.html#government">Government & Public Services</a></li>
+                        <li><a href="services.html#korea-eps">Korea & EPS Services</a></li>
+                        <li><a href="services.html#travel">Travel & Booking Services</a></li>
+                        <li><a href="services.html#other">Other Services</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Quick Links -->
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="index.html#pricing">Packages</a></li>
+                        <li><a href="sample-cv.html">Samples</a></li>
+                        <li><a href="contact.html">CV Information Form</a></li>
+                        <li><a href="index.html#process">How It Works</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="index.html#faq">FAQ</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="contact.html">Get a Quote</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Legal -->
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="terms-conditions.html">Terms and Conditions</a></li>
+                        <li><a href="service-disclaimer.html">Service Disclaimer</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 5: Contact -->
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul class="contact-list">
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.149-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/></svg>
+                            <a href="https://wa.me/9779862989407" target="_blank" rel="noopener">+977 9862989407</a>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
+                            <a href="mailto:cvandcoverletternepal@gmail.com">cvandcoverletternepal@gmail.com</a>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            <span>Service area: Nepal and worldwide</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 CV & Cover Letter Nepal. All rights reserved.</p>
+                <a href="privacy-policy.html" target="_blank" rel="noopener">Privacy policy</a>
+                <a href="terms-conditions.html" target="_blank" rel="noopener">Terms and Conditions</a>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/9779862989407" target="_blank" rel="noopener" class="float-whatsapp" aria-label="Chat on WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.149-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/></svg>
+    </a>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
